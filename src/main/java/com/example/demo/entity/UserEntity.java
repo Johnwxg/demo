@@ -19,6 +19,17 @@ public class UserEntity {
 	
 	@Column(name="t_address")
 	private String address;
+	
+	@Column(name="t_pwd")
+	private String pwd;
+
+	public String getPwd() {
+		return pwd;
+	}
+
+	public void setPwd(String pwd) {
+		this.pwd = pwd;
+	}
 
 	public int getId() {
 		return id;
