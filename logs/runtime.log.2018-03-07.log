@@ -51,3 +51,459 @@
 2018-03-07 16:39:57.338 [http-nio-8080-exec-1] INFO  com.example.demo.controller.UserController - userInfo-->info
 2018-03-07 16:39:57.339 [http-nio-8080-exec-1] ERROR com.example.demo.controller.UserController - userInfo-->error
 2018-03-07 16:39:57.409 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-07 17:08:56.518 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on LAPTOP-9HNI7I4L with PID 6720 (F:\workspace-test\test\demo\target\classes started by Admin in F:\workspace-test\test\demo)
+2018-03-07 17:08:56.524 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-03-07 17:08:56.677 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3fed2870: startup date [Wed Mar 07 17:08:56 CST 2018]; root of context hierarchy
+2018-03-07 17:08:58.340 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$faa12f9e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-07 17:08:58.922 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:08:59.035 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-07 17:08:59.057 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:08:59.057 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:08:59.077 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-07 17:08:59.077 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-07 17:08:59.098 [localhost-startStop-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:08:59.271 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-07 17:08:59.273 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2595 ms
+2018-03-07 17:08:59.697 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-03-07 17:08:59.699 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-07 17:08:59.704 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-07 17:08:59.704 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-07 17:08:59.704 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-07 17:08:59.704 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-07 17:08:59.705 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-03-07 17:09:00.578 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:09:00.606 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-07 17:09:00.732 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-07 17:09:00.734 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-07 17:09:00.798 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-07 17:09:00.997 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-07 17:09:01.704 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:09:02.780 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3fed2870: startup date [Wed Mar 07 17:08:56 CST 2018]; root of context hierarchy
+2018-03-07 17:09:02.851 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-07 17:09:02.915 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.list()
+2018-03-07 17:09:02.917 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[GET]}" onto public com.example.demo.entity.UserEntity com.example.demo.controller.UserController.save(com.example.demo.entity.UserEntity)
+2018-03-07 17:09:02.918 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.dalete(int)
+2018-03-07 17:09:02.922 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-07 17:09:02.923 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-07 17:09:02.991 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:09:02.992 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:09:03.116 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:09:03.586 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-07 17:09:03.587 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'logFilter' has been autodetected for JMX exposure
+2018-03-07 17:09:03.588 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2018-03-07 17:09:03.594 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'logFilter': registering with JMX server as MBean [com.alibaba.druid.filter.logging:name=logFilter,type=Slf4jLogFilter]
+2018-03-07 17:09:03.595 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2018-03-07 17:09:03.605 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:09:03.617 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-07 17:09:03.659 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-07 17:09:03.662 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 7.711 seconds (JVM running for 8.418)
+2018-03-07 17:09:18.486 [http-nio-8080-exec-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:09:18.507 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-07 17:09:18.507 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-07 17:09:18.543 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-03-07 17:09:18.591 [http-nio-8080-exec-1] INFO  com.example.demo.controller.UserController - userInfo-->info
+2018-03-07 17:09:18.591 [http-nio-8080-exec-1] ERROR com.example.demo.controller.UserController - userInfo-->error
+2018-03-07 17:09:18.675 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-07 17:11:30.728 [http-nio-8080-exec-5] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:11:36.775 [http-nio-8080-exec-10] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:11:40.500 [http-nio-8080-exec-2] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:11:40.515 [http-nio-8080-exec-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:12:00.860 [http-nio-8080-exec-6] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:17:57.840 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on LAPTOP-9HNI7I4L with PID 2644 (F:\workspace-test\test\demo\target\classes started by Admin in F:\workspace-test\test\demo)
+2018-03-07 17:17:57.845 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-03-07 17:17:57.910 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3fed2870: startup date [Wed Mar 07 17:17:57 CST 2018]; root of context hierarchy
+2018-03-07 17:17:59.741 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$885995c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-07 17:18:00.503 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:18:00.625 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-07 17:18:00.648 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:18:00.649 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:18:00.671 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-07 17:18:00.671 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-07 17:18:00.700 [localhost-startStop-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:18:00.890 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-07 17:18:00.890 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2980 ms
+2018-03-07 17:18:01.238 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-03-07 17:18:01.241 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-07 17:18:01.246 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-07 17:18:01.246 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-07 17:18:01.247 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-07 17:18:01.247 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-07 17:18:01.247 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-03-07 17:18:02.175 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:18:02.202 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-07 17:18:02.339 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-07 17:18:02.341 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-07 17:18:02.413 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-07 17:18:02.653 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-07 17:18:03.419 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:18:04.541 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3fed2870: startup date [Wed Mar 07 17:17:57 CST 2018]; root of context hierarchy
+2018-03-07 17:18:04.608 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-07 17:18:04.685 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.list()
+2018-03-07 17:18:04.687 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[GET]}" onto public com.example.demo.entity.UserEntity com.example.demo.controller.UserController.save(com.example.demo.entity.UserEntity)
+2018-03-07 17:18:04.688 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.dalete(int)
+2018-03-07 17:18:04.694 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-07 17:18:04.695 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-07 17:18:04.781 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:18:04.783 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:18:04.856 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:18:05.428 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-07 17:18:05.429 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'logFilter' has been autodetected for JMX exposure
+2018-03-07 17:18:05.430 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2018-03-07 17:18:05.436 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'logFilter': registering with JMX server as MBean [com.alibaba.druid.filter.logging:name=logFilter,type=Slf4jLogFilter]
+2018-03-07 17:18:05.438 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2018-03-07 17:18:05.450 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:18:05.464 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-07 17:18:05.508 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-07 17:18:05.512 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 8.16 seconds (JVM running for 8.837)
+2018-03-07 17:18:20.935 [http-nio-8080-exec-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:18:20.955 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-07 17:18:20.955 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-07 17:18:20.991 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 36 ms
+2018-03-07 17:18:21.034 [http-nio-8080-exec-1] INFO  com.example.demo.controller.UserController - userInfo-->info
+2018-03-07 17:18:21.034 [http-nio-8080-exec-1] ERROR com.example.demo.controller.UserController - userInfo-->error
+2018-03-07 17:18:21.124 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-07 17:23:35.592 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:18 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:166)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:212)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:114)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:351)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+2018-03-07 17:29:34.229 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:18 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:166)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:212)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:114)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:351)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+2018-03-07 17:43:19.202 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:18 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:166)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:212)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:114)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:351)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+2018-03-07 17:43:30.571 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:18 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:166)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:212)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:114)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:351)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+2018-03-07 17:45:16.980 [main] ERROR org.springframework.boot.SpringApplication - Application run failed
+java.lang.IllegalStateException: Logback configuration error detected: 
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@8:18 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+ERROR in ch.qos.logback.core.joran.spi.Interpreter@17:19 - no applicable action for [Encoding], current ElementPath  is [[configuration][appender][Encoding]]
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.loadConfiguration(LogbackLoggingSystem.java:166)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.reinitialize(LogbackLoggingSystem.java:212)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initializeWithConventions(AbstractLoggingSystem.java:75)
+	at org.springframework.boot.logging.AbstractLoggingSystem.initialize(AbstractLoggingSystem.java:60)
+	at org.springframework.boot.logging.logback.LogbackLoggingSystem.initialize(LogbackLoggingSystem.java:114)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initializeSystem(LoggingApplicationListener.java:264)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.initialize(LoggingApplicationListener.java:237)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEnvironmentPreparedEvent(LoggingApplicationListener.java:200)
+	at org.springframework.boot.context.logging.LoggingApplicationListener.onApplicationEvent(LoggingApplicationListener.java:173)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139)
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:127)
+	at org.springframework.boot.context.event.EventPublishingRunListener.environmentPrepared(EventPublishingRunListener.java:74)
+	at org.springframework.boot.SpringApplicationRunListeners.environmentPrepared(SpringApplicationRunListeners.java:54)
+	at org.springframework.boot.SpringApplication.prepareEnvironment(SpringApplication.java:351)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:317)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1234)
+	at com.example.demo.DemoApplication.main(DemoApplication.java:10)
+2018-03-07 17:45:46.500 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on LAPTOP-9HNI7I4L with PID 484 (F:\workspace-test\test\demo\target\classes started by Admin in F:\workspace-test\test\demo)
+2018-03-07 17:45:46.503 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-03-07 17:45:46.555 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3571b748: startup date [Wed Mar 07 17:45:46 CST 2018]; root of context hierarchy
+2018-03-07 17:45:48.255 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$92096e80] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-07 17:45:48.780 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:45:48.885 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-07 17:45:48.903 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:45:48.903 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:45:48.921 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-07 17:45:48.922 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-07 17:45:48.941 [localhost-startStop-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:45:49.085 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-07 17:45:49.085 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2530 ms
+2018-03-07 17:45:49.331 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-03-07 17:45:49.333 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-07 17:45:49.337 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-07 17:45:49.338 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-07 17:45:49.338 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-07 17:45:49.338 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-07 17:45:49.339 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-03-07 17:45:50.121 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:45:50.151 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-07 17:45:50.261 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-07 17:45:50.264 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-07 17:45:50.321 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-07 17:45:50.510 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-07 17:45:51.176 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:45:52.043 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@3571b748: startup date [Wed Mar 07 17:45:46 CST 2018]; root of context hierarchy
+2018-03-07 17:45:52.104 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-07 17:45:52.150 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.list()
+2018-03-07 17:45:52.152 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[GET]}" onto public com.example.demo.entity.UserEntity com.example.demo.controller.UserController.save(com.example.demo.entity.UserEntity)
+2018-03-07 17:45:52.153 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.dalete(int)
+2018-03-07 17:45:52.158 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-07 17:45:52.159 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-07 17:45:52.200 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:45:52.200 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:45:52.256 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:45:52.585 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-07 17:45:52.586 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'logFilter' has been autodetected for JMX exposure
+2018-03-07 17:45:52.586 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2018-03-07 17:45:52.593 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'logFilter': registering with JMX server as MBean [com.alibaba.druid.filter.logging:name=logFilter,type=Slf4jLogFilter]
+2018-03-07 17:45:52.594 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2018-03-07 17:45:52.602 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:45:52.617 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-07 17:45:52.637 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-07 17:45:52.641 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.59 seconds (JVM running for 7.151)
+2018-03-07 17:46:49.950 [http-nio-8080-exec-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:46:49.964 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-07 17:46:49.965 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-07 17:46:49.992 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 27 ms
+2018-03-07 17:46:50.030 [http-nio-8080-exec-1] INFO  com.example.demo.controller.UserController - userInfo-->info
+2018-03-07 17:46:50.031 [http-nio-8080-exec-1] ERROR com.example.demo.controller.UserController - userInfo-->error
+2018-03-07 17:46:50.124 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-07 17:47:46.516 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on LAPTOP-9HNI7I4L with PID 2092 (F:\workspace-test\test\demo\target\classes started by Admin in F:\workspace-test\test\demo)
+2018-03-07 17:47:46.521 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-03-07 17:47:46.573 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@740773a3: startup date [Wed Mar 07 17:47:46 CST 2018]; root of context hierarchy
+2018-03-07 17:47:48.119 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2e26d7ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-07 17:47:48.606 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:47:48.712 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-07 17:47:48.728 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:47:48.728 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:47:48.745 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-07 17:47:48.745 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-07 17:47:48.757 [localhost-startStop-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:47:48.900 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-07 17:47:48.906 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2334 ms
+2018-03-07 17:47:49.153 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-03-07 17:47:49.155 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-07 17:47:49.159 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-07 17:47:49.160 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-07 17:47:49.161 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-07 17:47:49.161 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-07 17:47:49.162 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-03-07 17:47:50.209 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:47:50.236 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-07 17:47:50.352 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-07 17:47:50.354 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-07 17:47:50.413 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-07 17:47:50.571 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-07 17:47:51.174 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:47:52.034 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@740773a3: startup date [Wed Mar 07 17:47:46 CST 2018]; root of context hierarchy
+2018-03-07 17:47:52.088 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-07 17:47:52.139 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.list()
+2018-03-07 17:47:52.141 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[GET]}" onto public com.example.demo.entity.UserEntity com.example.demo.controller.UserController.save(com.example.demo.entity.UserEntity)
+2018-03-07 17:47:52.141 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.dalete(int)
+2018-03-07 17:47:52.146 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-07 17:47:52.146 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-07 17:47:52.188 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:47:52.188 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:47:52.231 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:47:52.491 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-07 17:47:52.492 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'logFilter' has been autodetected for JMX exposure
+2018-03-07 17:47:52.492 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2018-03-07 17:47:52.497 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'logFilter': registering with JMX server as MBean [com.alibaba.druid.filter.logging:name=logFilter,type=Slf4jLogFilter]
+2018-03-07 17:47:52.498 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2018-03-07 17:47:52.508 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:47:52.527 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-07 17:47:52.585 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-07 17:47:52.587 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.51 seconds (JVM running for 7.09)
+2018-03-07 17:48:01.962 [http-nio-8080-exec-3] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:48:01.982 [http-nio-8080-exec-3] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-07 17:48:01.982 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-07 17:48:02.005 [http-nio-8080-exec-3] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2018-03-07 17:48:02.044 [http-nio-8080-exec-3] INFO  com.example.demo.controller.UserController - userInfo-->info
+2018-03-07 17:48:02.044 [http-nio-8080-exec-3] ERROR com.example.demo.controller.UserController - userInfo-->error
+2018-03-07 17:48:02.128 [http-nio-8080-exec-3] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-07 17:48:02.293 [http-nio-8080-exec-3] DEBUG org.hibernate.SQL - select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
+2018-03-07 17:49:14.383 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on LAPTOP-9HNI7I4L with PID 10420 (F:\workspace-test\test\demo\target\classes started by Admin in F:\workspace-test\test\demo)
+2018-03-07 17:49:14.388 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-03-07 17:49:14.446 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60015ef5: startup date [Wed Mar 07 17:49:14 CST 2018]; root of context hierarchy
+2018-03-07 17:49:16.191 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2062596f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-07 17:49:16.686 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:49:16.811 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-07 17:49:16.830 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:49:16.831 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:49:16.850 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-07 17:49:16.850 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-07 17:49:16.863 [localhost-startStop-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:49:17.030 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-07 17:49:17.031 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2585 ms
+2018-03-07 17:49:17.276 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-03-07 17:49:17.278 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-07 17:49:17.282 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-07 17:49:17.282 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-07 17:49:17.283 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-07 17:49:17.283 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-07 17:49:17.283 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-03-07 17:49:18.120 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:49:18.147 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-07 17:49:18.254 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-07 17:49:18.256 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-07 17:49:18.328 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-07 17:49:18.502 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-07 17:49:19.170 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:49:20.025 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60015ef5: startup date [Wed Mar 07 17:49:14 CST 2018]; root of context hierarchy
+2018-03-07 17:49:20.086 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-07 17:49:20.128 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.list()
+2018-03-07 17:49:20.130 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[GET]}" onto public com.example.demo.entity.UserEntity com.example.demo.controller.UserController.save(com.example.demo.entity.UserEntity)
+2018-03-07 17:49:20.130 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.dalete(int)
+2018-03-07 17:49:20.140 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-07 17:49:20.141 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-07 17:49:20.198 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:49:20.199 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:49:20.249 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:49:20.554 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-07 17:49:20.556 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'logFilter' has been autodetected for JMX exposure
+2018-03-07 17:49:20.556 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2018-03-07 17:49:20.563 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'logFilter': registering with JMX server as MBean [com.alibaba.druid.filter.logging:name=logFilter,type=Slf4jLogFilter]
+2018-03-07 17:49:20.564 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2018-03-07 17:49:20.572 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:49:20.587 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-07 17:49:20.611 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-07 17:49:20.614 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.663 seconds (JVM running for 7.222)
+2018-03-07 17:49:24.548 [http-nio-8080-exec-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:49:24.568 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-07 17:49:24.569 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-07 17:49:24.594 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 25 ms
+2018-03-07 17:49:24.632 [http-nio-8080-exec-1] INFO  com.example.demo.controller.UserController - userInfo-->info
+2018-03-07 17:49:24.632 [http-nio-8080-exec-1] ERROR com.example.demo.controller.UserController - userInfo-->error
+2018-03-07 17:49:24.727 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-07 17:49:24.896 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_
+2018-03-07 17:51:26.163 [main] INFO  com.example.demo.DemoApplication - Starting DemoApplication on LAPTOP-9HNI7I4L with PID 4176 (F:\workspace-test\test\demo\target\classes started by Admin in F:\workspace-test\test\demo)
+2018-03-07 17:51:26.167 [main] INFO  com.example.demo.DemoApplication - No active profile set, falling back to default profiles: default
+2018-03-07 17:51:26.221 [main] INFO  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext - Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60015ef5: startup date [Wed Mar 07 17:51:26 CST 2018]; root of context hierarchy
+2018-03-07 17:51:27.702 [main] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$429f6a58] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-03-07 17:51:28.177 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:51:28.262 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2018-03-07 17:51:28.286 [main] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:51:28.286 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:51:28.305 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2018-03-07 17:51:28.306 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.28
+2018-03-07 17:51:28.317 [localhost-startStop-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:51:28.451 [localhost-startStop-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2018-03-07 17:51:28.452 [localhost-startStop-1] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2231 ms
+2018-03-07 17:51:28.674 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet statViewServlet mapped to [/druid/*]
+2018-03-07 17:51:28.676 [localhost-startStop-1] INFO  o.s.boot.web.servlet.ServletRegistrationBean - Servlet dispatcherServlet mapped to [/]
+2018-03-07 17:51:28.681 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-03-07 17:51:28.684 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-03-07 17:51:28.684 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-03-07 17:51:28.684 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'requestContextFilter' to: [/*]
+2018-03-07 17:51:28.684 [localhost-startStop-1] INFO  o.s.boot.web.servlet.FilterRegistrationBean - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-03-07 17:51:29.406 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Building JPA container EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:51:29.424 [main] INFO  org.hibernate.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+2018-03-07 17:51:29.532 [main] INFO  org.hibernate.Version - HHH000412: Hibernate Core {5.2.14.Final}
+2018-03-07 17:51:29.535 [main] INFO  org.hibernate.cfg.Environment - HHH000206: hibernate.properties not found
+2018-03-07 17:51:29.601 [main] INFO  org.hibernate.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+2018-03-07 17:51:29.801 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+2018-03-07 17:51:30.536 [main] INFO  o.s.orm.jpa.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2018-03-07 17:51:31.568 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter - Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@60015ef5: startup date [Wed Mar 07 17:51:26 CST 2018]; root of context hierarchy
+2018-03-07 17:51:31.626 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration$JpaWebMvcConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2018-03-07 17:51:31.678 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/list],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.list()
+2018-03-07 17:51:31.679 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/save],methods=[GET]}" onto public com.example.demo.entity.UserEntity com.example.demo.controller.UserController.save(com.example.demo.entity.UserEntity)
+2018-03-07 17:51:31.680 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/user/delete],methods=[GET]}" onto public java.util.List<com.example.demo.entity.UserEntity> com.example.demo.controller.UserController.dalete(int)
+2018-03-07 17:51:31.683 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-03-07 17:51:31.684 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-03-07 17:51:31.733 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:51:31.733 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:51:31.799 [main] INFO  o.s.web.servlet.handler.SimpleUrlHandlerMapping - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-03-07 17:51:32.075 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Registering beans for JMX exposure on startup
+2018-03-07 17:51:32.076 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Bean with name 'druidDataSource' has been autodetected for JMX exposure
+2018-03-07 17:51:32.083 [main] INFO  o.s.jmx.export.annotation.AnnotationMBeanExporter - Located MBean 'druidDataSource': registering with JMX server as MBean [com.alibaba.druid.pool:name=druidDataSource,type=DruidDataSource]
+2018-03-07 17:51:32.094 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2018-03-07 17:51:32.108 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2018-03-07 17:51:32.126 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2018-03-07 17:51:32.133 [main] INFO  com.example.demo.DemoApplication - Started DemoApplication in 6.42 seconds (JVM running for 7.005)
+2018-03-07 17:51:36.703 [http-nio-8080-exec-1] ERROR org.apache.catalina.core.AprLifecycleListener - An incompatible version [1.1.30] of the APR based Apache Tomcat Native library is installed, while Tomcat requires version [1.2.14]
+2018-03-07 17:51:36.720 [http-nio-8080-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-03-07 17:51:36.721 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization started
+2018-03-07 17:51:36.758 [http-nio-8080-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - FrameworkServlet 'dispatcherServlet': initialization completed in 37 ms
+2018-03-07 17:51:36.801 [http-nio-8080-exec-1] INFO  com.example.demo.controller.UserController - userInfo-->info
+2018-03-07 17:51:36.801 [http-nio-8080-exec-1] ERROR com.example.demo.controller.UserController - userInfo-->error
+2018-03-07 17:51:36.882 [http-nio-8080-exec-1] INFO  o.h.hql.internal.QueryTranslatorFactoryInitiator - HHH000397: Using ASTQueryTranslatorFactory
+2018-03-07 17:51:37.035 [http-nio-8080-exec-1] DEBUG org.hibernate.SQL - select userentity0_.t_id as t_id1_0_, userentity0_.t_address as t_addres2_0_, userentity0_.t_age as t_age3_0_, userentity0_.t_name as t_name4_0_ from t_user userentity0_

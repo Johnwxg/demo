@@ -2,6 +2,8 @@ package com.example.demo;
 
 
 import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.List;
 
 import javax.sql.DataSource;
 
@@ -11,6 +13,8 @@ import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import com.alibaba.druid.filter.Filter;
+import com.alibaba.druid.filter.logging.Slf4jLogFilter;
 import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
@@ -44,6 +48,18 @@ public class DruidConfiguration {
         return filterRegistrationBean;
     }
     
+//    @Bean
+//    public Slf4jLogFilter logFilter(){
+//    	Slf4jLogFilter filter = new Slf4jLogFilter();
+//    	filter.setResultSetLogEnabled(true);
+//        filter.setConnectionLogEnabled(true);
+//        filter.setStatementParameterClearLogEnable(true);
+//        filter.setStatementCreateAfterLogEnabled(true);
+//        filter.setStatementCloseAfterLogEnabled(true);
+//        filter.setStatementParameterSetLogEnabled(true);
+//        filter.setStatementPrepareAfterLogEnabled(true);
+//    	return filter;
+//    }
     
     @Bean
     public DataSource druidDataSource(
@@ -86,7 +102,13 @@ public class DruidConfiguration {
         druidDataSource
                 .setMaxPoolPreparedStatementPerConnectionSize(maxPoolPreparedStatementPerConnectionSize);
         druidDataSource.setConnectionProperties(connectionProperties);
+        
+        //新增SQL执行日志记录
+//        List<Filter> list = new ArrayList<Filter>(){{
+//        	add(logFilter());
+//        }};
         try {
+//        	druidDataSource.setProxyFilters(list);
             druidDataSource.setFilters(filters);
         } catch (SQLException e) {
             e.printStackTrace();
