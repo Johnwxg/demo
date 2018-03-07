@@ -2,6 +2,8 @@ package com.example.demo.controller;
 
 import java.util.List;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
@@ -13,7 +15,7 @@ import com.example.demo.jpa.UserJPA;
 @RestController
 @RequestMapping(value="/user")
 public class UserController {
-	
+	private final static Logger LOGGER = LoggerFactory.getLogger(UserController.class);
 	@Autowired
 	private UserJPA userJPA;
 	
@@ -22,6 +24,9 @@ public class UserController {
 	 */
 	@RequestMapping(value="/list", method=RequestMethod.GET)
 	public List<UserEntity> list(){
+		LOGGER.debug("userInfo-->debug");
+		LOGGER.info("userInfo-->info");
+		LOGGER.error("userInfo-->error");
 		return userJPA.findAll();
 	}
 	
